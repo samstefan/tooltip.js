@@ -1,7 +1,7 @@
 # Tooltip.js
 ---
 
-Tooltips.js is a easy to use tooltip plugin with CSS3 animations.
+Tooltips.js is a easy to use tool tip plug-in with CSS3 animations.
 
 Dependency:
   - [jQuery](http://qjuery.com)
@@ -19,25 +19,25 @@ First add 'data-tooltip-content' attribute to the element with the content you w
 <a href="#" data-tooltip-content="This is a tooltip.">Tooltip Button</a>
 ```
 
-Then call the Tooltip.js plug-in on the element
+Then call the Tooltips.js plug-in on the element
 
 ```
-$('.demo').tooltip({ position: 'left' })`
+$('.demo').tooltip({ position: 'left' })
 ````
 
 ## Options
 ---
 
-Listed below are all of the options available to customize Tooltip.js
+Listed below are all of the options available to customize Tooltips.js
 
 ```
 position: 'top' // You can set the alignment to bottom, left or right.
-type: 'hover' // The tooltip can be trigerd on hover or the focus focus event.
-offsetTop: 0 // Offset the postion from the top.
-offsetLeft: 0 // Offset the postion from the left.
+type: 'hover' // The tool tip can be trigger on hover or the focus focus event.
+offsetTop: 0 // Offset the position from the top.
+offsetLeft: 0 // Offset the position from the left.
 ```
 
-Fore More domes and options visits the website.
+Fore More domes and options visits the [website](http://forge.synthmedia.co.uk/tooltips).
 
 ## Release History
 ---

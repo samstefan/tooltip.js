@@ -1,4 +1,4 @@
-# Tooltip.js
+# Tooltips.js
 ---
 
 Tooltips.js is a easy to use tool tip plug-in with CSS3 animations.

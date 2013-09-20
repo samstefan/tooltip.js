@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tooltip Demo</title>
+    <!-- Google Meta-->
+    <meta name="author" content="Synth Media">
+    <meta name="description" content="A light weight jQuery plugin to add tooltips to your website.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../tooltip.min.css">
+  </head>
+  <body>
+
+    <a class="btn demo-position-left" href="#" data-tooltip-content="Lorem ipsum dolor sit amet.">Position Left</a>
+    <a class="btn demo-position-top" href="#" data-tooltip-content="Lorem ipsum dolor sit amet.">Position Top</a>
+    <a class="btn demo-position-bottom" href="#" data-tooltip-content="Lorem ipsum dolor sit amet.">Position Bottom</a>
+    <a class="btn demo-position-right" href="#" data-tooltip-content="Lorem ipsum dolor sit amet.">Position Right</a>
+
+   <input class="demo-input" type="text" data-tooltip-content="Lorem ipsum dolor sit amet.">
+
+    <script>window.jQuery || document.write('<script src="../jquery-1.10.2.min.js"><\/script>')</script>
+    <script src="../tooltip.min.js"></script>
+    <script>
+      $('.demo-position-left').tooltip({ position: 'left' })
+      $('.demo-position-top').tooltip({ position: 'top' })
+      $('.demo-position-bottom').tooltip({ position: 'bottom' })
+      $('.demo-position-right').tooltip({ position: 'right' })
+      $('.demo-input').tooltip({ type: 'focus', position: 'right' })
+    </script>
+  </body>
+</html>

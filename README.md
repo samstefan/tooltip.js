@@ -1,7 +1,7 @@
-# Tooltips.js
+# Tooltip.js
 ---
 
-Tooltips.js is a easy to use tool tip plug-in with CSS3 animations.
+Tooltip.js is a easy to use tool tip plug-in with CSS3 animations.
 
 Dependency:
   - [jQuery](http://qjuery.com)
@@ -28,7 +28,7 @@ $('.demo').tooltip({ position: 'left' })
 ## Options
 ---
 
-Listed below are all of the options available to customize Tooltips.js
+Listed below are all of the options available to customize Tooltip.js
 
 ```
 position: 'top' // You can set the alignment to bottom, left or right.

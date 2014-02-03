@@ -42,4 +42,4 @@ Fore More domes and options visits the [website](http://forge.synthmedia.co.uk/t
 ## Release History
 ---
 
-* v1.0.0 Initial released.
+* v1.0.0 Initial release.
